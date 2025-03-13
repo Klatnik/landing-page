@@ -1,1 +1,9 @@
-border-box
+@charset "UTF-8";
+html {
+  box-sizing: border-box;
+}
+
+*, :after, :before {
+  box-sizing: inherit;
+  scroll-behavior: smooth;
+}
