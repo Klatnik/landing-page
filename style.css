@@ -8,6 +8,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  margin: 0;
+}
+
 img  {
   width: 500px;
 }
@@ -19,6 +23,12 @@ p {
 .header-container {
   display: flex;
   justify-content: space-between;
+  background-color: #1F2937;
+  color: #F9FAF8;
+}
+
+.header-logo {
+  font-size: 24px;
 }
 
 li {
