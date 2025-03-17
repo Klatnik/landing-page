@@ -7,3 +7,11 @@ html {
   box-sizing: inherit;
   scroll-behavior: smooth;
 }
+
+img  {
+  width: 500px;
+}
+
+p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
