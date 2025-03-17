@@ -12,6 +12,10 @@ body {
   margin: 0;
 }
 
+.container {
+  margin: 0 auto;
+}
+
 img  {
   width: 500px;
 }
@@ -20,11 +24,23 @@ p {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+
 .header-container {
   display: flex;
   justify-content: space-between;
   background-color: #1F2937;
   color: #F9FAF8;
+  
+}
+
+.hero-container {
+  display: flex;
+}
+
+.hero-main-text {
+  font-size: 48px;
+  font-weight: 900;
+
 }
 
 .header-logo {
@@ -44,3 +60,4 @@ li {
 ul {
   padding: 0;
 }
+
