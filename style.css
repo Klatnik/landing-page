@@ -76,6 +76,13 @@ ul {
   color: #F9FAF8;
 }
 
+
+/* content */
+
+.content-container, .header-container, .hero-container, .signup-container {
+  padding: 30px;
+}
+
 .content-text {
   font-size: 36px;
   font-weight: 900;
@@ -113,3 +120,15 @@ ul {
 .content-img_04 {
   background-image: url(./img/info-04.jpg);
 }
+
+/* quote */
+
+.quote-container {
+  background-color: #E5E7EB;
+  font-size: 36px;
+  font-style: italic;
+  text-align: center;
+  padding: 100px;
+  
+}
+
